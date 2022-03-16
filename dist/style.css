@@ -1,0 +1,211 @@
+* {
+  font-family: "Fredoka", sans-serif;
+}
+
+body {
+  background-color: #e4e4e7;
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  background-color: #e4e4e7;
+  margin: 5vh auto 0 auto;
+}
+
+header {
+  width: 75vw;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 15px 60px 15px 22px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  color: #3f3f46;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #a1a1aa;
+  align-items: center;
+}
+header div {
+  font-size: 1.1rem;
+  display: flex;
+  gap: 35px;
+}
+
+footer {
+  width: 75vw;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 15px 60px 15px 22px;
+  display: flex;
+  justify-content: center;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 300;
+  color: #3f3f46;
+  font-size: 1.2rem;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #a1a1aa;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #3f3f46;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #3f3f46;
+}
+
+.photo1 {
+  margin: 125px auto 0 auto;
+  align-items: center;
+  background-color: #fafafa;
+  box-shadow: 0 0 10px #a1a1aa;
+  height: 180px;
+  align-items: center;
+  padding-top: 100px;
+  padding: 30px 20px 30px 40px;
+}
+.photo1 span {
+  margin-left: 52%;
+  font-size: 3.4rem;
+  margin-top: 60px;
+  margin-right: 30px;
+}
+.photo1 span dfn {
+  font-family: "Dancing Script", cursive;
+}
+.photo1 div {
+  display: flex;
+  justify-content: end;
+}
+.photo1 div span {
+  font-size: 1rem;
+}
+.photo1 img {
+  height: 300px;
+  border-radius: 15px;
+}
+
+.photo2 {
+  margin: 125px auto 0 auto;
+  align-items: center;
+  background-color: #fafafa;
+  box-shadow: 0 0 10px #a1a1aa;
+  height: 180px;
+  align-items: center;
+  padding-top: 90px;
+  padding: 30px 20px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  margin-bottom: 40px;
+}
+.photo2 span {
+  font-size: 3.4rem;
+  margin-top: 0px;
+  margin-right: 30px;
+  width: 50%;
+}
+.photo2 span dfn {
+  font-family: "Dancing Script", cursive;
+}
+.photo2 .span7 {
+  width: 180px;
+}
+.photo2 div {
+  display: flex;
+  align-items: end;
+  margin-left: 480px;
+}
+.photo2 div span {
+  font-size: 1rem;
+}
+.photo2 img {
+  height: 300px;
+  border-radius: 15px;
+}
+
+.photo1, .photo2 {
+  border-radius: 15px;
+  width: 75vw;
+  position: relative;
+}
+
+#img1 {
+  position: absolute;
+  bottom: 30px;
+}
+
+#img2 {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+
+/*-------------------------------------------------------------------------------*/
+.products {
+  margin: 160px auto 100px auto;
+  width: 78vw;
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr 1fr 1fr;
+  background-color: #e4e4e7;
+  column-gap: 27px;
+  row-gap: 150px;
+}
+
+.product {
+  padding: 20px;
+  background-color: #f4f4f5;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #a1a1aa;
+  position: relative;
+}
+.product img {
+  position: absolute;
+  object-fit: cover;
+  width: 88%;
+  bottom: 53%;
+  border-radius: 8px;
+  height: 110%;
+  box-shadow: 0 0 7px #a1a1aa;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  column-gap: 20px;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 23px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fafafa;
+  width: 50%;
+}
+
+.buy {
+  background-color: #3a3acf;
+}
+
+.info {
+  background-color: #a1a1aa;
+}
+
+/*# sourceMappingURL=style.css.map */
