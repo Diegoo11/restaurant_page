@@ -208,4 +208,46 @@ button {
   background-color: #a1a1aa;
 }
 
+/*----------------------------------------------------------------------------------*/
+.contact {
+  width: 85vw;
+  margin: 200px auto;
+  margin-left: 0;
+  background-color: #f4f4f5;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 0 10px #a1a1aa;
+  padding: 20px;
+  padding-right: 200px;
+  display: flex;
+  justify-content: end;
+}
+.contact .contacttitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 13px;
+}
+.contact .sushi {
+  width: 1300px;
+  position: absolute;
+  object-fit: cover;
+  height: 550px;
+  left: 0;
+  top: 22%;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+}
+.contacto img {
+  width: 50px;
+  margin: 15px;
+}
+.contacto span {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #52525b;
+}
+
 /*# sourceMappingURL=style.css.map */
