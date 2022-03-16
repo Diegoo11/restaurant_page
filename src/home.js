@@ -13,9 +13,13 @@ function makeHome (){
         const span3 = document.createElement('span')
 
         span0.innerHTML = 'Home'
+        span0.id = 'home'
         span1.innerHTML = "Menu"
+        span1.id = 'menu'
         span2.innerHTML = "Galeria"
+        span2.id = 'galeria'
         span3.innerHTML = "Contacto"
+        span3.id = 'contacto'
 
         header.append(span0)
         div0.append(span1)
