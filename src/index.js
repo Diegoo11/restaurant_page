@@ -23,3 +23,7 @@ window.addEventListener('click', (e)=>{
     }
 
 })
+
+const gato  = ()=>console.log('DiegooGato')
+
+gato()
